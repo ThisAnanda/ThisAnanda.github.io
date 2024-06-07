@@ -1,0 +1,104 @@
+@import url('https://font.googleopis.com/css2?family=Lora&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lavender;
+}
+
+/*NAVBAR*/
+.navbar{
+  background-color: #9370DB;
+  box-shadow: 2px 2px 50px pink;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li{
+  list-style: none;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.navbar ul .nama{
+  font-size: 30px;
+  color: #FFEFD5;
+  letter-spacing: 3px;
+}
+
+.navbar ul li a{
+  font-size: 15px;
+  color: #FFEFD5;
+  text-decoration: none;
+}
+/*AKHIR NAVBAR*/
+
+/*KONTEN*/
+/*JUMBOTRON*/
+.jumbotron {
+  align-content: center;
+  margin-top: 15px;
+  font-family: arial;
+}
+
+.jumbotron h2{
+  letter-spacing: 1px;
+}
+/*AKHIR JUMBOTRON*/
+
+.konten h2 {
+  background-color: #D8BFD8;
+  color: #BC8F8F;
+}
+
+.about P {
+  background-color: #FFF0F5;
+  color: #F08080;
+}
+
+.pendidikan h4{
+  background-color: #DB7093;
+  color: #FFFAF0;
+}
+
+.pendidikan li{
+  background-color: #FFF0F5;
+  color: #F08080;
+}
+
+.keahlian h4{
+  background-color: #DB7093;
+  color: #FFFAF0;
+}
+
+.keahlian li{
+  background-color: #FFF0F5;
+  color: #F08080;
+}
+
+.hobi h4{
+  background-color: #DB7093;
+  color: #FFFAF0;
+}
+
+.hobi li{
+  background-color: #FFF0F5;
+  color: #F08080;
+}
+
+.kontak h4{
+  background-color: #DB7093;
+  color: #FFFAF0;
+}
+
+.kontak p{
+  background-color: #FFF0F5;
+  color: #F08080;
+}
+/*AKHIR KONTEN*/
